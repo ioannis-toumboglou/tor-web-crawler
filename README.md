@@ -1,7 +1,11 @@
 # tor-web-crawler
 Tor network web crawler
 
-A web crawler that retrieves the HTML content from Tor network webpages and stores it in an SQL database.
+The application's first function is to create a list of Tor network URLs, store them in an SQL database, while
+checking their status, whether they are active or not.
+
+The second function is the implementation of a web crawler that retrieves the HTML content from Tor network webpages
+and stores it in the database.
 
 The application gives three retrieval options to the user:
 
@@ -26,8 +30,8 @@ The application gives three retrieval options to the user:
    the database. Then repeats the same procedure for each one of them, thus implementing
    a breadth-first search.
    
-After collecting the content, the text found in these pages is extracted and is stored in the database.
-An unsupervised machine learing algorithm is used in order to classify the content, based on the threat type it refers to.
+While collecting the content, the text found in these pages is extracted and is stored in the database.
+An unsupervised machine learing algorithm is then used in order to classify it, based on the threat type it refers to.
 
 The machine learning algorithm used is K-Means.
 
