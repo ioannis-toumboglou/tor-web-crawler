@@ -1,0 +1,162 @@
+Carding is a term describing the trafficking of credit card, bank account and other personal information online as well as related fraud services. Activities also encompass procurement of details, and money laundering techniques. Modern carding sites have been described as full-service commercial entities.
+There are a great many of methods to acquire credit card and associated financial and personal data. The earliest known carding methods have also included 'trashing' for financial data, raiding mail boxes and working with insiders. Some bank card numbers can be semi-automatically generated based on known sequences via a 'BIN attack'. Carders might attempt a 'distributed guessing attack' to discover valid numbers by submitting numbers across a high number of ecommerce sites simultaneously.
+Today, various methodologies include skimmers at ATMs, hacking or web skimming an ecommerce or payment processing site or even intercepting card data within a point of sale network. Randomly calling hotel room phones asking guests to 'confirm' credit card details is example of a social engineering attack vector.
+tolen data may be bundled as a 'Base' or 'First-hand base' if the seller participated in the theft themselves. Resellers may buy 'packs' of dumps from multiple sources. Ultimately, the data may be sold on darknet markets and other carding sites and forum 'cvv shops' specialising in these types of illegal goods. Teenagers have gotten involved in fraud such as using card details to order pizzas.
+On the more sophisticated of such sites, individual 'dumps' may be purchased by zip code and country so as to avoid alerting banks about their misuse. Automatic checker services perform validation en masse in order to quickly check if a card has yet to be blocked. Sellers will advertise their dump's 'valid rate', based on estimates or checker data. Cards with a greater than 90% valid rate command higher prices. 'Cobs' or changes of billing are highly valued, where sufficient information is captured to allow redirection of the registered card's billing and shipping addresses to one under the carder's control.
+Full identity information may be sold as 'Fullz' inclusive of social security number, data of birth and address to perform more lucrative identity theft.
+Fraudulent vendors are referred to as 'rippers', vendors who take buyer's money then never deliver. This is increasingly mitigated via forum and store based feedback systems as well as through strict site invitation and referral policies.
+Whilst some carding forums will exist only on the dark web, today most exist on the internet, and many will use the Cloudflare network protection service.
+Funds from stolen cards themselves may be cashed out via buying pre-paid cards, gift cards or through reshipping goods though mules then reselling through online marketplaces like eBay. Increased law enforcement scrutiny over reshipping services has led to the rise of dedicated criminal operations for reshipping stolen goods.
+Hacked computers may be configured with SOCKS proxy software to optimise acceptance from payment processors.
+The 2004 investigation into the ShadowCrew forum also led to investigations of the online payment service E-gold that had been launched in 1996, one of the preferred money transfer systems of carders at the time. In December 2005 its owner Douglas Jackson's house and businesses were raided as a part of 'Operation Goldwire'. Jackson discovered that the service had become a bank and transfer system to the criminal underworld. Pressured to disclose ongoing records disclosed to law enforcement, many arrests were made through to 2007. However, in April 2007 Jackson himself was indicted for money laundering, conspiracy and operating an unlicensed money transmitting business. This led to the service freezing the assets of users in 'high risk' countries and coming under more traditional financial regulation.
+Since 2006, Liberty Reserve had become a popular service for cybercriminals. When it was seized in May 2013 by the US government, this caused a major disruption to the cybercrime ecosystem.
+Today, some carders prefer to make payment between themselves with bitcoin, as well as traditional wire services such as Western Union, MoneyGram or the Russian WebMoney service.
+
+Carding itself is defined as the illegal use of the card (Credit/Debit) by unauthorized people (carder) to buy a product. For educational purposes, I will now show how a carder is able to go about their illicit activities. Remember – carding is highly illegal, and should not be attempted under any circumstances.
+
+
+Carding is a form of credit card fraud in which a stolen credit card is used to charge pre-paid cards. Carding typically involves the holder of the stolen card purchasing store-branded gift cards, which can then be sold to others or used to purchase other goods that can be sold for cash.
+Credit card thieves who are involved in this type of fraud are called carders.
+BREAKING DOWN Carding
+The United States is a significant target for credit card fraud because it is a large market in which credit card and debit card use is common, and because the types of cards that are used only contain a magnetic strip rather than the chip and pin technology found in other countries.
+How Carding Happens
+Carding typically starts with a hacker gaining access to a store or website’s credit card processing system, with the hacker obtaining a list of credit or debit cards that were recently used to make a purchase. A hacker might exploit weaknesses in the security software and technology intended to protect credit card accounts. They might also procure credit card information by using scanners to copy the coding from the magnetic strips.
+Credit card information might also be compromised by accessing the account holder’s other personal information, such as their bank accounts they have already gained entry to, targeting the information at its source. The hacker then sells the list of credit or debit card numbers to a third party – a "carder" – who uses the stolen information to purchase a gift card.
+Most credit card companies offer cardholders protection from charges made if a credit or debit card is reported stolen, but by the time the cards are canceled, the carder has often made a purchase. The gift cards are used to purchase high value goods, such as cell phones, televisions, and computers, since those goods do not require registration and can be resold later.
+If the carder purchases a gift card for an electronic retailer, such as Amazon, he or she may use a third party to receive the goods and then ship them to other locations. This limits the carder’s risk of drawing attention. The carder may also sell the goods on websites offering a degree of anonymity.
+Because credit cards are often canceled quickly after being lost, a major part of carding involves testing the stolen card information to see if it still works. This may involve submitting purchase requests on the Internet.
+
+Carding employs the use of illegitimately obtained cards offered by various financial institutions to drain funds from an account without the consent of the owner.
+It is an art that requires skill and perfection gained from experience to record success.
+It is therefore vital that those involved in the vice understand the terminologies used as well as the modus operandi.
+There are various reasons as to why carding is among the most popular types of fraud on the dark web, and these reasons are more than enough to justify the hypothesis.
+Plenty of avenues to obtain cards
+There are hundreds of places—including darknet markets and sites running on standard browsers­—that offer the sale of credit/debit cards of various types and levels.
+The sites have multiple URLs that redirect the end user to the same login page.
+The other factor that makes this even more common is the existence of several forums offered for the carding community. Among them, one of the most well-known is the club2crd forum, where vendors from various regions post ads to what they have.
+The forum also has a live chat which is open to every logged-in user, but the only issue is that many users speak Russian only and, as such, the average English-speaking persons are left out of the discussions.
+The competition is high in the carding practice. Sellers even go to the extent of posting adverts to get more clients, leading to higher sales. It is a benefit because those who intend to offer dubious services will think twice.
+Low cost of getting cards
+Depending on the level, type and origin country of the card, one can obtain them for as little as $10 (USD), based on the place they outsource them.
+However, some vendors are well known and much more reputable than others. As a result, they end up charging a higher fee for the sale of the card due to the refund policy they have.
+For instance, if the card is dead or has security features rendered impassable, then there is a refund if the issue is reported within a particular time frame.
+One should be very careful when purchasing cards, as not just any of them are card-able. Various methods of trial and error are applied as some cards have excessive security measures in place, such as sending a One Time Password (OTP) to the owner.
+If the carder does not have access to this, they cannot do anything, forcing them to abort the mission.
+Those vendors who sell cards are aware of the Bank Identification Numbers (BINs) that are attached to the cards. They can also identify which cards record high rates of success, as well as the ones that are likely to have huge sums of money.
+Doing so makes them figure out the perfect one to obtain.
+In some cases, vendors state that if they sell a card which has a two-factor guard, it does not warrant a refund. This is how they lure in unsuspecting buyers into a fraud scheme—if a person purchases such a card, then they will not reap any benefits.
+Online financial institutions that offer money transfer services such as PayPal, WordRemit, SendWave, Skrill and Neteller are very fond among carders due to their ability to accept cards as a funding source.
+Once a card (which is card-able) is obtained by the carder, they will then add the card to their preferred platform and upload funds until they reach an absolute limit or until all the money on the account is exhausted.
+Then upon uploading funds, they can use the platforms to pay for goods or services, or to send them to other accounts. And for platforms like Skrill which do not have the option of sending to the mobile wallet, then they do so with ease.
+However, when the victim realizes that the funds are missing from their account, they then file a dispute with the financial institution that offered the card.
+The money will then receive a chargeback, leading to certain limitations or the termination of the account.
+There are, however, some instances where the account does not get a chargeback, and mostly this happens when a dispute is not filed—possibly because the owner fails to notice missing funds.
+Countless avenues to pay with cards
+More and more businesses adopt cards as the primary payment option due to their convenience and the fact that the majority of the world’s population has acquired either a debit or credit card.
+The above reason allows carders a list of endless options where they can initiate withdrawals and spend funds in accounts that do not belong to them.
+The practice is widespread across the globe and will depend on the skill and experience of the one undertaking the operation. Since these cards have unique security features, it is vital that one understands the modalities.
+Institutions that issue cards have beefed up security features so that when a card is used in a new geographical region or on some specific platform, it gets rejected.
+Since there are hundreds of thousands of cards available on the dark web, some of the measures taken to prevent carding have proved useful whereas others are still not effective as the rate of cyber fraud from credit cards continues to increase.
+
+What is Carding?
+There are two types of Carding, front-end and back-end.
+Front-End Carding happens at your checkout. The fraudster is trying to purchase something from your store, and running through a laundry list of credit cards until one works. Their personal information stays the same, the purchase amount doesn’t change, but the credit cards information changes.
+Back-End Carding happens on our server. Someone with a large number of stolen credit cards attempts to test their validity by running small transactions on a random merchant account. They do this by guessing your Merchant ID number, then sending a request to process transactions to your payment provider using your Merchant ID.
+At Bambora, once we detect carding we alert the merchant immediately. If any of the payments were approved, we run a batch refund.
+Is the Merchant Account compromised?
+If your Merchant Account has experienced back-end carding, the good news is the information is still safe and secure. The Merchant Account itself has not be breached.
+How do you detect Carding?
+We have become experts at identifying Carding attempts. There are multiple ways we can detect it, the biggest being the decline rate on micro-transactions. Remember with Back-End Carding, the fraudster is just trying to see if the credit card still works, to be able to use it in another purchase. They are sending a small amount to us to test, which we detect. There are countless other ways we can detect Carding, but rest assured we do.
+What can be done to prevent future Carding?
+When we flag that an account has shown Carding activity, we sometimes enable a security feature called Hash Validation to prevent any future attempts. There may be updates to the account depending on how payments are being processed, but we will be here to offer support.
+Hash Validation is one of the many tools that we can help you protect against Carding. It isn’t always a fit with every business, so we will work with you to find the right protection for your business.
+Processing payments online can expose you to a certain level of risk. Hopefully, you will never get the alert notifying you that we have detected Carding on your account, but if you do – don’t panic. Your information is safe, we will issue the batch refund, and we will work with you to prevent any future attempts.
+We are your partner in payments, through the good and the bad.
+
+Fraud is a nightmare for customers and merchants alike. With constant news of data breaches, shoppers are rightfully concerned about the safety of their payment data. The thought of a stranger racking up thousands of dollars in debt keeps many customers up at night — and causes them to have second thoughts about buying from you.
+Retailers are hurt just as badly by fraudulent credit card transactions. Fraud causes charge-backs, possible loss of products, and damage to a merchant's reputation, all of which can greatly harm a business. And it's not just small businesses that can suffer — even the largest retailers can be hit hard. Target, for example, reported a 46% decrease in profits after its data breach in early 2014.
+Stolen card numbers are often sold in bulk to fraudsters who then test them through a process known as carding. Carding can be as harmful as any other type of fraud, and it's important to detect and prevent it.
+What is Carding Fraud?
+Carding describes the process fraudsters use to determine whether stolen card numbers are active and not yet reported lost or stolen. To test whether a stolen card number can be used, fraudsters will often visit donation or eCommerce websites and quickly initiate multiple transactions. This method is used to test any number of stolen cards. There are several types of carding:
+A single card being repeatedly used in quick succession for low or identical dollar amounts
+Multiple cards being repeatedly used in quick succession for low or identical dollar amounts
+Multiple cards with the same information (name and/or billing address) from the same IP address
+Multiple cards with differing information (name and/or billing address) from the same IP address
+Multiple cards with different billing addresses but an identical BIN (Bank Identification Number)
+These are all possible signs that your online store has been targeted for carding activity.
+ Ways to Detect and Prevent Carding Activity
+The best approach to detecting and preventing carding is to implement a multi-part payment review process. Each layer places another obstacle in front of any potential carding activity and helps protect your online store from being targeted. The layers of this system work together to detect and prevent carding by comparing data and slowing down the fraudster's activities.
+1. Use a CAPTCHA
+The main purpose of a CAPTCHA is to prevent payment attempts from being sent by an automated script, as human input is required to solve the CAPTCHA. By forcing potential fraudsters to do their carding manually, you make your online store a less appealing target for carding activity.
+It's important to keep in mind that adding a Captcha validation to your checkout process will have a negative impact in your conversion rate since it adds friction to your checkout flow and it’s not a common element of an online store checkout.
+2. Use the Address Verification System (AVS)
+The Address Verification System compares the billing addresses given at checkout to the address the credit card company has on file for the customer. The results of this comparison are immediately sent to you. Common AVS responses are:
+Y (a full match)
+A (only the address matches)
+Z (ZIP code match only)
+N (no match at all)
+If set up properly, your payment gateway can stop transactions with a response of N if the card has been reported lost or stolen. For any other variations, you'll need to use fraud filters to validate this data and decide to accept or reject transactions at your discretion.
+AVS is active in the United States, Canada, and the United Kingdom. Cards issued from countries without AVS support may return these responses:
+U (AVS unsupported)
+S (AVS unavailable)
+G (global card)
+Since AVS is not present in every country, you should back it up with other forms of fraud detection.
+3. Perform IP Geolocation Checks
+An IP address marks the location of an internet user's computer. An IP geolocation check compares the user's IP address with the billing address they enter on your checkout page. If the locations don't match, the user is likely not shopping from the same address as the owner of the credit card — a possible indicator of fraud.
+A failed IP geolocation check doesn't always mean a transaction is fraudulent. You should also check if the user is visiting your website through a proxy IP address, which is used to make internet users appear from a false location. It's true that some fraudsters use proxies to hide their tracks, but their usage is also common among regular people who simply want additional privacy.
+It's also possible that the user placed their order while traveling, therefore causing their IP address to differ from their billing information, but you should never assume this is the case. An IP geolocation mismatch always warrants a closer look, and you may instantly discover other red flags.
+4. Compare the Cards' Bank Identification Numbers
+The BIN provides information regarding the type of credit card and the name and location of the issuing bank. It appears as the first six digits of every credit and debit card number. Since the BIN identifies the type of card (Visa, MasterCard, American Express, or Discover) and the bank that issued it, you can identify cards that all come from the same source.
+This information can be vital in detecting carding attempts. Normally, you should only infrequently see card numbers with the same BIN — perhaps two a month. If you suddenly receive several transactions within a day or two all involving the same BIN, this is a sign that your online store is being targeted for a carding attempt using a large number of card numbers purchased online and/or originating from a data breach. Tracking BINs can help you spot this type of activity.
+5. Velocity Checks
+Velocity refers to the number or speed of transactions attempted within a certain time period, e.g. several payments from the same visitor made within seconds or minutes of each other. It's very unusual for a user to make multiple payments in quick succession, especially if the transactions are so close together that it would be hard for a human to perform them.
+authorizenet-velocity-filterSource: Authorize.net Settings
+It's very important to monitor velocity, and it can be done by dollar amount, user IP address, billing address, BIN, or device. In each case, the number and speed of transactions identical in a certain way is checked. For example, velocity checks by dollar amount will identify a quick series of transactions all for the exact same amount, which is a frequent sign of carding.
+6. Authorization/Capture
+Authorization/capture is a method of taking credit card payments in which the card is first authorized for a purchase, with the funds to be captured later. It's often used for situations like authorizing a customer's card for payment up to a certain amount, while the exact amount of the charge has yet to be determined. Once the vendor reaches the exact payment amount, the funds are captured from the customer's card up to, but not exceeding, the authorization amount.
+If you use the authorization/capture method on your online store, you can take the time to review the transactions during the authorization period. If you believe you're being targeted by carding, don't capture the funds. If you've already captured them, it's highly recommended to quickly issue a refund instead of waiting for a chargeback from the customer.
+7. 3D-Secure
+3dsecure-brands
+3D-Secure (3 Domain Secure) implements  technology to shift the burden of fraud prevention away from the merchant and to the payment provider. A customer's transactions and identity are verified through a system that utilizes a large amount of information to determine whether a payment is fraudulent or valid, while keeping the customer's checkout experience as smooth as possible.
+protectbuy-3ds
+3D-Secure  works in the background, transferring data between the online merchant and the customer's credit card provider. The transferred data covers multiple aspects of the customer's shopping history that can help verify their identity, such as the device they're using, their spending patterns, and more. The more data transferred, the more secure the identification, resulting in decreased fraud as well as fewer false-positives. The solution is presented specifically for the card used, and it could be presented as Discover ProtectBuy, Verified By Visa, Mastercard SecureCode or American Express SafeKey.
+How to Start Filtering Fraudulent Transactions
+The fastest, simplest solution for identifying and preventing carding and other fraudulent transactions on your online store is to use a fraud filter solution. There are multiple solutions in the market that automatically review transactions in several of the above ways. The gathered information is analyzed and returned to you, allowing you to decide whether or not to accept potentially risky orders.
+paypal-fraud-filtersSource: Paypal Filter Settings
+How Fraud Filters Work
+By utilizing multiple sources of information to help determine the potential fraud risk of any transaction. Your shopping cart is already collecting data including, but not limited to:
+The user's IP address
+The user's billing and shipping information
+The user's payment information
+The AVS response returned for a transaction
+This information can be used to compare against parameters you define, such as order amounts, item quantity, etc. to set up screening rules that will automatically perform your chosen actions when a new order is received.
+For example, you can perform your own geolocation validation by comparing a shopper's IP address and billing address, take note of inconsistencies listed by the AVS response, and more. You can then designate actions to be taken automatically when an order appears matching the criteria you've listed.
+With most fraud solutions, you can use the criteria you set to automatically accept, reject, or flag orders for manual review if it brings to light any inconsistencies in the order data. Or, you could create rules that flag every single order made by any customer whose billing address doesn't match the IP address of their computer or device. Likewise, you could automatically flag all high-value orders made by a brand new customer. All these orders would then appear for you to check manually, enabling you to accept or reject them on a case-by-case basis.
+For Velocity Checks, you should be able to configure a maximum number of checkout attempts per user, which prevents any further attempts after your designated limit is reached. This is a powerful weapon against carding as it prevents large numbers of successive transactions, a prime carding tactic.
+Conclusion
+The battle against fraud is never-ending, but tools like FraudWatch, NoFraud, Kount and Siftscience provide you with a quick, reliable way to collect all pertinent information that can help you judge whether or not a transaction presents a threat. With highly configurable rules and numerous data collection points, a fraud solution is a must-have for any online store owner looking to protect themselves and their customers from carding attempts and all fraudulent activity.
+
+What is Carding
+Carding (OWASP OAT-001) is an automated form of payment fraud in which fraudsters test a bulk list of credit/debit card data against a merchant’s payment processing system to verify the stolen card details. Such card details are stolen from different payment channels, another application, or purchased from dark web marketplaces. Hackers also apply card cracking (OWASP OAT-010) practices to obtain credit card details.
+Why does carding happen?
+The primary reason behind carding attacks is to illegally purchase goods or cash out the cards. Hackers deploy bots on payment processing pages to verify the validity of stolen card details. The authenticity of stolen card details are often unknown to the carders, and therefore, bots are deployed on payment processing pages to compose the correct set of card details. After identifying the right set of card details, hackers can sell them on dark web marketplaces or simply cash out (OWASP OAT - 012) the cards.
+Mitigation of carding
+The Open Web Application Security Project (OWASP), a not-for-profit charitable organization focused on improving the security of software, suggests a list of countermeasures to address carding attacks. The list includes completely outsourcing all aspects of payments to providers that are equipped with adequate facilities to address carding attacks; increasing the minimum checkout value; and IP blacklisting. Dedicated bot mitigation solutions take a different approach and effectively eliminate carding attacks through deep user behavior, and intent analysis.
+
+Everyday we can open our wallet or put our hand in the pocket and put out the credit card for payment. But the problem is happened when an unauthorized person can stole our credit card details and transact heavy amount for buying things in online or offline markets. This process is called carding and the products that are buying with carding materials are called carding products.
+For Example:
+A person can go to the store for buying some accessories for his/her home. After buying things he/she can used credit card for payment. He/she puts out his/her credit card and take it to the person who takes payment. But the person who takes payment is a corrupt man/woman. He/She can used a device which can store the credit card details in it. When the user credit card is swipe through the machine. The user credit card details are stored in it and the user didn’t know about it. After this the corrupt person can buy things online or offline by using this details or sometimes he/she sell these credit card details on deep web or dark web. This process is called card dumping.
+Many different techniques like Hacked ATMs or Hacked Online Shopping Websites etc are also used to stole credit card details.
+ATMs are mostly hacked through skimmers. Skimmers are the devices which can store data in it before the data is captured by the machine.
+The online shopping websites credit card details are mostly hacked through the software called SQLi Dumper.
+In the past 2007–08 the websites can store the credit card details in their databases and some websites also sell these details. But now according to the new law the user can enter his/her credit card details everytime when he/she can surf the website and buy things.
+My Opinion:
+My opinion on this topic is always used secure and popular websites like Amazon and eBay etc for buying things and confirm that the credit card swiping machine is from bank. The carding is illegal and the products that are buying by using carding materials are also illegal. So stay away from carding or carding materials.
+I hope after reading this article you can know about what is carding. This is my opinion about this topic. If I can take any mistake please comment me and I am waiting for your response.
+
+Credit card fraud, act committed by any person who, with intent to defraud, uses a credit card that has been revoked, cancelled, reported lost, or stolen to obtain anything of value. Using the credit card number without possession of the actual card is also a form of credit card fraud. Stealing a person’s identity in order to receive a credit card is another more threatening form of credit card fraud, because it works in conjunction with identity theft. Credit card fraud is a problem that affects the entire consumer credit industry. It is one of the fastest-growing types of fraud and one of the most difficult to prevent.
+
+Well, defined loosely, carding is the art of credit card manipulation to access goods or services by way of fraud. But dont let the “politically correct” definition of carding stop fool you, because carding is more than that. Much more.
+Although different people card for different reasons, the motive is usually tied to money. Yea, handling a $9,000 plasma television in your hands and knowing that you didn’t pay one red cent for it is definitely a rush.
+But other factors contribute to your personal reason for carding. Many carders in the scene come from poor countries, such as Argentina, Pakistan, and Lebanon where $50 could mean a weeks pay, on a good day. Real carders (the one that have been in the scene the longest) seem to card for something more, however. The thrill of cc manipulation? The rush that the federalizes could bust down your door at any minute? The defiance of knowing that everyday that you are walking among the public is another day that you have gotten away with a federal crime? Whatever your persona reason for carding is, this tutorial should answer a few noobie questions and take the guessing out of the entire carding game. The resources and techniques mentioned in this tutorial are NOT, I repeat, NOT the only methods of carding. Experience in carding is key. You have to practice your own methods and try out new techniques in carding to really get a system that works for you. This tutorial is meant to get you on your way.
+If the carder purchases a gift card for an electronic retailer, such as Amazon, he or she may use a third-party to receive the goods and then ship them to other locations. This limits the carder’s risk of drawing attention. The carder may also sell the goods on websites offering a degree of anonymity. Because credit cards are often canceled quickly after being lost, a major part of carding involves testing the stolen card information to see if it still works. This may involve submitting purchase requests on the Internet.

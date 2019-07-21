@@ -1,0 +1,188 @@
+A zero-day (also known as 0-day) vulnerability is a computer-software vulnerability that is unknown to those who would be interested in mitigating the vulnerability (including the vendor of the target software). Until the vulnerability is mitigated, hackers can exploit it to adversely affect computer programs, data, additional computers or a network. An exploit directed at a zero-day is called a zero-day exploit, or zero-day attack.
+In the jargon of computer security, Day Zero is the day on which the interested party (presumably the vendor of the targeted system) learns of the vulnerability. Up until that day, the vulnerability is known as a zero-day vulnerability. Similarly, an exploitable bug that has been known for thirty days would be called a 30-day vulnerability. Once the vendor learns of the vulnerability, the vendor will usually create patches or advise workarounds to mitigate it.
+The fewer the days since Day Zero, the higher the chance no fix or mitigation has been developed. Even after a fix is developed, the fewer the days since Day Zero, the higher is the probability that an attack against the afflicted software will be successful, because not every user of that software will have applied the fix. For zero-day exploits, the probability that a user has patched their bugs is zero, so the exploit should always succeed. Zero-day attacks are a severe threat.
+A zero-day vulnerability, at its core, is a flaw. It is an unknown exploit in the wild that exposes a vulnerability in software or hardware and can create complicated problems well before anyone realizes something is wrong. In fact, a zero-day exploit leaves NO opportunity for detection ... at first.
+A zero-day attack happens once that flaw, or software/hardware vulnerability, is exploited and attackers release malware before a developer has an opportunity to create a patch to fix the vulnerability—hence zero-day. Let’s break down the steps of the window of vulnerabilityZero-day is a flaw in software, hardware or firmware that is unknown to the party or parties responsible for patching or otherwise fixing the flaw. The term zero day may refer to the vulnerability itself, or an attack that has zero days between the time the vulnerability is discovered and the first attack. Once a zero-day vulnerability has been made public, it is known as an n-day or one-day vulnerability.
+Zero-day exploits tend to be very difficult to detect. Antimalware software and some intrusion detection systems (IDSes) and intrusion prevention systems (IPSes) are often ineffective because no attack signature yet exists. This is why the best way to detect a zero-day attack is user behavior analytics. Most of the entities authorized to access networks exhibit certain usage and behavior patterns that are considered to be normal. Activities falling outside of the normal scope of operations could be an indicator of a zero-day attack.
+Some zero-day attacks have been attributed to advanced persistent threat (APT) actors, hacking or cybercrime groups affiliated with or a part of national governments. Attackers, especially APTs or organized cybercrime groups, are believed to reserve their zero-day exploits for high-value targets.
+
+A zero-day vulnerability is a software security flaw that is known to the software vendor but doesn’t have a patch in place to fix the flaw. It has the potential to be exploited by cybercriminals.
+What is a software vulnerability?
+In the world of cyber security, vulnerabilities are unintended flaws found in software programs or operating systems. Vulnerabilities can be the result of improper computer or security configurations and programming errors. If left unaddressed, vulnerabilities create security holes that cybercriminals can exploit.
+Why do vulnerabilities pose security risks?
+Hackers write code to target a specific security weakness. They package it into malware called a zero-day exploit. The malicious software takes advantage of a vulnerability to compromise a computer system or cause an unintended behavior. In most cases, a patch from the software developer can fix this.
+What if your computer becomes infected? Exploit malware can steal your data, allowing hackers to take unauthorized control of your computer. Software can also be used in ways that were not originally intended — like installing other malware that can corrupt files or access your contact list to send spam messages from your account. It could also install spyware that steals sensitive information from your computer.
+If you’re an everyday computer user, a vulnerability can pose serious security risks because exploit malware can infect a computer through otherwise harmless web browsing activities, such as viewing a website, opening a compromised message, or playing infected media.
+What makes a vulnerability a zero-day?
+The term “zero-day” refers to a newly discovered software vulnerability. Because the developer has just learned of the flaw, it also means an official patch or update to fix the issue hasn’t been released.
+So, “zero-day” refers to the fact that the developers have “zero days” to fix the problem that has just been exposed — and perhaps already exploited by hackers.
+Once the vulnerability becomes publicly known, the vendor has to work quickly to fix the issue to protect its users.
+But the software vendor may fail to release a patch before hackers manage to exploit the security hole. That’s known as a zero-day attack.
+What can you do to help protect yourself from zero-day vulnerabilities?
+Zero-day vulnerabilities present serious security risks, leaving you susceptible to zero-day attacks, which can result in potential damage to your computer or personal data.
+To keep your computer and data safe, it’s smart to take proactive and reactive security measures.
+Your first line of defense is to be proactive by using comprehensive security software, like Norton Security, that protects against both known and unknown threats.
+Your second line of defense is to be reactive and immediately install new software updates when they become available from the manufacturer to help reduce the risk of malware infection.
+Software updates allow you to install necessary revisions to the software or operating system. These might include adding new features, removing outdated features, updating drivers, delivering bug fixes, and most important, fixing security holes that have been discovered.
+Follow this security checklist to be sure you are doing everything you can to help keep your information protected from the security risks associated with zero-day vulnerabilities:
+Keep software and security patches up to date by downloading the latest software releases and updates. Installing security patches fixes bugs that the previous version may have missed.
+Establish safe and effective personal online security habits.
+Configure security settings for your operating system, internet browser, and security software.
+Install a proactive and comprehensive security software to help block known and unknown threats to vulnerabilities.
+Zero-day attack example
+Stuxnet — a type of zero-day vulnerability — was one of the earliest digital weapons used. Stuxnet is a highly infectious self-replicating computer worm that disrupted Iranian nuclear plants. The threat took control of computers. It altered the speed of centrifuges in the plants and shut them down.
+Symantec researchers Eric Chien and Liam O’Murchu analyzed the worm. They discovered that Stuxnet is a well-crafted computer worm that only a national government could create to control large-scale industrial facilities. With a team of cyber security experts, Chien and O’Murchu came up with patches and workarounds to fix the bug.
+Want an extra shot of drama? The documentary “Zero Days” tells the story of how the Stuxnet worm was discovered and handled. It’s available in the United States on iTunes, Google Play, YouTube, and Amazon.
+Things to remember about zero-day vulnerabilities
+Keep your software up-to-date to help protect yourself against a zero-day vulnerability. 
+Check for a solution when a zero-day vulnerability is announced. Most software vendors work quickly to patch a security vulnerability. 
+Don’t underestimate the threat. Cybercriminals will seek to exploit security holes and gain access to your devices and your personal information. They can use your information for a range of cybercrimes including identity theft, bank fraud, and ransomware. 
+Always use a reliable security software to help keep your devices safe and secure.
+
+A Zero Day is both an unpatched software hole previously unknown to the software vendor and the code attackers use to take advantage of said hole.
+Zero day actually refers to two things—a zero-day vulnerability or a zero-day exploit.
+Zero-day vulnerability refers to a security hole in software—such as browser software or operating system software—that is yet unknown to the software maker or to antivirus vendors. This means the vulnerability is also not yet publicly known, though it may already be known by attackers who are quietly exploiting it. Because zero day vulnerabilities are unknown to software vendors and to antivirus firms, there is no patch available yet to fix the hole and generally no antivirus signatures to detect the exploit, though sometimes antivirus scanners can still detect a zero day using heuristics (behavior-tracking algorithms that spot suspicious or malicious behavior).
+Zero-day exploit refers to code that attackers use to take advantage of a zero-day vulnerability. They use the exploit code to slip through the hole in the software and plant a virus, Trojan horse or other malware onto a computer or device. It's similar to a thief slipping through a broken or unlocked window to get into a house.
+The term "zero-day" refers to the number of days that the software vendor has known about the hole. The term apparently originated in the days of digital bulletin boards, or BBSs, when it referred to the number of days since a new software program had been released to the public. Zero day software was unreleased software and was highly coveted by hackers who wanted to be the first to obtain it.
+Zero day vulnerabilities and exploit codes are extremely valuable and are used not only by criminal hackers but also by nation-state spies and cyber warriors, like those working for the NSA and the U.S. Cyber Command.
+Zero day vulnerabilities used to be extremely rare. Out of more than a million pieces of malware security firms discovered and processed each month, only about one or two were zero-day exploit code. These days, however, more zero days are being used and discovered. That's in part due to the emergence of a large market for buying and selling zero-day vulnerabilities and exploits, driven largely by the demand from government intelligence agencies.
+The zero-day market has three parts. These include the black underground market where criminal hackers trade in exploit code and vulnerability information to break into systems and steal passwords and credit card numbers; the white market, which encompasses the bug bounty programs where researchers and hackers disclose vulnerability information to vendors, in exchange for money, so the holes can be fixed—this market includes security companies that purchase zero-day exploits to use in their penetration-testing products to determine if a customer's system is vulnerable to attack; and the "gray" market, where researchers and companies, some of them military defense contractors, sell zero-day exploits and vulnerability information to militaries, intelligence agencies and law enforcement to use for surveillance and offensive computer operations.
+Some of the most famous attacks that used zero-day exploits are:
+Stuxnet—a virus/worm that targeted computers in Iran's uranium enrichment plant at Natanz and used five zero-day exploits to spread and gain privileged access on systems. Though one of the vulnerabilities was patched by Microsoft before the attackers could unleash their code, so technically, at the time Stuxnet was discovered, it was using only four zero-days.
+Aurora—in 2010 hackers believed to be from China broke into Google, Adobe, and more than a dozen other companies using a zero-day vulnerability found in several versions of Microsoft's Internet Explorer browser software. The attackers were targeting, at least in part, Google's source code—possibly to study it and discover additional zero-day vulnerabilities for future use. The group behind those attacks is still active and has been caught using at least eight other zero-day exploits since then.
+RSA hack—attackers, believed to be the same that targeted Google, used a zero-day exploit in Adobe's Flash player in a spear-phishing attack against employees working for the security firm. The intruders succeeded in stealing information related to the company’s SecurID two-factor authentication products.
+The price of zero-day vulnerabilities can vary greatly—anywhere from $5,000 to several hundred thousand dollars—depending on a number of factors. A vulnerability that exists in multiple versions of the Windows operating system will be much more valuable than one that exists in only a single version of the software. But one that targets the Apple iOS, which is more difficult to crack than other phones, can be even more valuable. Exploits that bypass built-in security protections—for example sandboxes built into browsers to keep malware from breaking out of the browser and affecting a computer's operating system—will also bring more than an exploit targeting a standard browser hole.
+Controversy over the U.S. government's use of zero days has been growing since Stuxnet was discovered in 2010 and has increased in the wake of the Edward Snowden revelations about the government's hacking activities. Earlier this year, the White House announced a new policy indicating that it will disclose zero-day vulnerabilities that the National Security Agency discovers in software so that they can be patched, but any flaws that have “a clear national security or law enforcement” can still be kept secret to be exploited.
+
+Zero day or a day zero attack is the term used to describe the threat of an unknown security vulnerability in a computer software or application for which either the patch has not been released or the application developers were unaware of or did not have sufficient time to address.
+Since the vulnerability is not known in advance, the exploits often occur without the knowledge of the users. A zero day flaw is considered as an important component when designing an application to be efficient and secure.
+The salient features of the zero day or day zero attacks are:
+Zero day attacks usually occur between the time the vulnerability is first found and exploited and the time the application developers releases the necessary solution to counter the exploitation. This timeline is usually termed as the vulnerability window.
+Zero day attacks are capable of devastating a network by exploiting the vulnerabilities of the applications involved.
+They are not always viruses and can assume other malware forms such as Trojan horses or worms.
+For home computer users, the zero day attack is extremely difficult to diagnose as the nature of attack is through a trusted entity.
+Update of latest anti-malware software are often recommended, though it can only provide a minimum security against a zero day attack.
+Effective methods for protecting against zero day attacks:
+Different access controls and restriction including virtual LANs, firewalls can provide protection against zero day attacks.
+Single packet authorization can help in providing effective protection in a network with fewer users against zero-day attacks.
+Restrict privileges for user accounts. This could mitigate the impact of any possible attacks.
+
+What is zero-day?
+Zero-day refers to how long the “good guys” have known about a security problem in the software. There are two kinds of zero-days. A zero-day vulnerability is a hole in the software’s security and can be present on a browser or an application. A zero-day exploit, on the other hand, is a digital attack that takes advantage of zero-day vulnerabilities in order to install malicious software onto a device.
+Zero-day
+Where do zero-days come from?
+Since by definition, a zero-day vulnerability is still unknown to software designers, antivirus vendors and the public at large, zero-day attacks come from criminal hackers who have discovered or otherwise learned about a hole in the system and quietly exploit it. In particular, zero-day attacks usually take advantage of holes in web browsers and email applications, since both are widely distributed.
+How do you recognize zero day exploits?
+The bad news is, it’s impossible to recognize either zero-day vulnerabilities or zero-day exploits — if you found them, they wouldn’t be zero-day anymore! Because of this, zero-day attacks are a severe threat but you’re not without recourse. For example, some antiviruses are able to detect a zero-day using behavior-tracking algorithms that spot suspicious or malicious behavior.
+How do you fix a zero-day vulnerability?
+Fixing a zero-day vulnerability is generally the job of the software provider who will need to release a security patch to mend the hole in its software. However, it’s up to individual users to actually install the security patch or software update onto their device. The easiest way to ensure you never forget to update your software is to get an application that can automatically manage your software patches.
+Other prevention tips:
+Always check for and install the latest software patches
+Practice safe browsing habits to reduce the danger of malware taking advantage of zero-day vulnerabilities
+Install an app that automatically updates your essential software, such as Avast Premier
+Protect yourself against zero-day
+Since zero-day attacks are very effective against even secure networks, users need to exercise common sense and practice safe computing habits such as not opening attachments from suspicious email addresses or otherwise downloading files from unknown sources, always keeping your software up-to-date and installing all the latest security patches. Beyond this, a powerful antivirus software such Avast Antivirus can help protect you against viruses, malware, spyware, ransomware and more that may be deployed through a zero-day vulnerability.
+
+There are a few common, but slightly different definitions of zero-day attacks. Some define zero-day attacks as attacks on vulnerabilities that have not been patched or made public, while others define them as attacks that take advantage of a security vulnerability on the same day that the vulnerability becomes publicly known (zero-day).
+But the general definition describes zero-day attacks (or zero-day exploits) as attacks that target publicly known but still unpatched vulnerabilities.
+Software vulnerabilities may be discovered by hackers, by security companies or researchers, by the software vendors themselves, or by users. If discovered by hackers, an exploit will be kept secret for as long as possible and will circulate only through the ranks of hackers, until software or security companies become aware of it or of the attacks targeting it. These types of attacks are defined by some as 'less than zero-day' attacks.
+The good guys vs the bad guys
+If a vulnerability is discovered by "the good guys" – internet security software companies or software vendors – the tendency is to keep it under wraps until the software maker has a patch to fix it. In some cases, however, security researchers or software vendors may have to publicly announce the flaw because users could be able to avoid the problem, for instance by steering clear of a particular website or being sure to not open a certain email attachment. Or the vulnerability might be discovered by a user and wind up on a blog or otherwise be publicly disclosed.
+In these cases, the race is on – good guys vs. bad guys. Will the software vendor or a security company come up with a fix for the bug or will hackers learn how to exploit it before the vulnerability is patched?
+2010 is known as the “The Year of Zero-Day Vulnerabilities for Browsers”. Adobe products (Flash, Reader), Internet Explorer, Java, Mozilla Firefox, Windows XP and many others were affected by zero-day exploits.
+Microsoft attacks
+Zero-day attacks targeting Microsoft software often hit right after Microsoft delivers its patches. Cybercriminals have found that they can take advantage of Microsoft's monthly security update cycle by timing new attacks just after Patch Tuesday - the second Tuesday of each month when Microsoft releases its fixes. These attacks will make Microsoft aware of the new vulnerabilities, but unless the vulnerabilities in question are extremely dangerous it will be a month before the software maker has a chance to respond. Security experts have coined the term "zero-day Wednesday" to describe that strategy.
+If the only way to avoid zero-day attacks was to wait for the software manufacturer to fix their software, well, you’d be spending a lot of time waiting. While there’s hardly a single “silver bullet” solution to protect your network from all zero-day vulnerabilities, there are some things you and/or your company can put in place to stay safe in the future: good antispam and anti virus protection.
+
+A zero-day vulnerability is a vulnerability in a system or device that has been disclosed but is not yet patched. An exploit that attacks a zero-day vulnerability is called a zero-day exploit.
+Because they were discovered before security researchers and software developers became aware of them—and before they can issue a patch—zero-day vulnerabilities pose a higher risk to users for the following reasons:
+1) cybercriminals race to exploit these vulnerabilities to cash in on their schemes
+2) vulnerable systems are exposed until a patch is issued by the vendor.
+Zero-day vulnerabilities are typically involved in targeted attacks; however, many campaigns still use old vulnerabilities. 
+
+A zero-day vulnerability is a software bug or exploit that hasn’t been patched. It’s like a hole in the bottom of your shoe that you haven’t noticed yet, but a curly-mustachioed villain has found it and is considering putting rusty nails on your gas pedal. Hackers can use these bugs and exploits to steal your data before you’re able to find and patch the weakness.
+
+Called either Day Zero or Zero-Day, it is an exploit that takes advantage of a security vulnerability on the same day that the vulnerability becomes publicly or generally known. Zero-Day exploits are usually posted by well-known hacker groups. Software companies may issue a security bulletin or advisory when the exploit becomes known, but companies may not be able to offer a patch to fix the vulnerability for some time after.
+
+What is a Zero Day Exploit?
+A zero day vulnerability is a software, hardware or firmware flaw unknown to the manufacturer. When hackers leverage that flaw to conduct a cyberattack, it’s called a zero day exploit.
+The term “zero day” comes from the fact that the vulnerability has yet to be fixed by security professionals. In other words, it’s been zero days since the last exploit.
+What makes it Dangerous?
+The reason zero day exploits are so dangerous is because manufacturers have not had the chance to patch them.
+Pretend a brand new version of Microsoft Office was just released. In order to streamline IT operations at your company, you purchase it for your team to use. However, Microsoft didn’t realize that there was an exploitable loophole in Microsoft Word before releasing it to the public. A hacker finds the loophole first and writes a malware script that easily infiltrates any device that downloads the new version of Microsoft Word.
+Microsoft is then stuck playing catchup. They have to develop a security patch that addresses the zero day exploit, and make sure all users download it. That may take months. In the meantime, hackers can wreak catastrophic havoc.
+zero day exploit loophole
+4 Ways to Protect against Zero Day Attacks
+Patch Management
+If you’re busy running a company, you may not even realize when a patch that addresses a zero day exploit is introduced. This is an issue because without the patch, you cannot be guaranteed protection from the attack.
+Patch management services ensure all new patches are installed as soon as they’re released.
+Real-Time Monitoring
+Since you can’t rely on manufacturers to patch zero day vulnerabilities immediately, you must have your own cyber security tools in place. These include:
+Behavior monitoring. This detects suspicious patterns, like cyberattacks, in your network’s traffic.
+Intrusion Prevention Systems. These are triggered after a behavior monitoring system notifies them. They attempt to stop any incoming threats from entering your network.
+Fast incident response. The earlier a team of trained professionals responds to a threat, the less damage it will cause.
+Disaster Recovery Strategy
+In the event that a zero day attack is able to damage your network, a comprehensive disaster recovery strategy can help provide business continuity. Data backup that combines onsite servers with cloud-based storage can allow for quick recovery.
+zero day exploit disaster recovery
+Education
+Employees who are uneducated about cyber security are a liability. They may download a program that’s clearly infected with malware, without even realizing it.
+Have your IT support company educate your employees on:
+What malware looks like
+Signs their computer has been breached
+Why they should update their computers
+The importance of reporting suspicious emails
+There’s no sign that zero day exploits are going to disappear any time soon. The earlier you prepare to defend against them and recover from them, the safer your network will be.
+
+What are zero-day threats?
+Zero-day threats are released into the wild before security vendors can issue protection against them.
+Malicious programs can attack by targeting vulnerabilities in your operating system and applications. In cases where a weakness has been identified in commercial software, the vendor will usually write a patch to secure the software against attacks.
+Patches take time to write so your system can be compromised before the vulnerability is fixed. Unpatched programs on your network increase your risk of a successful attack by a zero-day threat.
+Users of all operating systems - even Vista with its enhanced security features - should be on their guard against zero-day threats. Protection is best tackled on several fronts.
+Stopping zero-day threats
+Use your firewall wisely
+Your firewall is crucial in protecting your system against zero-day threats. You can ensure maximum protection by configuring it to allow only necessary transactions. Sophos Client Firewall combines many strategies to give you the best possible protection.
+Use only essential applications
+The more software you have, the more vulnerabilities you have. You can reduce the risk to your network by using a minumum of applications.
+Keep up to date with patches
+Patches fix the vulnerabilities in your software and operating systems, strengthening your resistance to malware.
+Choose a good Host Intrusion Protection System (HIPS)
+Your anti-virus protection will contain some form of HIPS, but not all protection is the same. Many HIPS only identify threats once they are already running, during time which damage may be done. SophosLabs™ has developed Behavioral Genotype® Protection to prevent this happening. It's an unique method of threat detection which means many threats can be identified without ever running malicious code.
+Zero-Day Exploits Defined
+How Do You Detect a Zero-Day Attack?
+Zero-Day Exploit Recovery
+
+Zero-Day Exploits Defined
+“Zero-day” is a loose term for a recently discovered vulnerability or exploit for a vulnerability that hackers can use to attack systems. These threats are incredibly dangerous because only the attacker is aware of their existence. Exploits can go unnoticed for years and are often sold on the black market for large sums of money.
+These exploits are considered “zero-day” before and on the day that the vendor is made aware of the exploit’s existence, with “zero” referring to the number of days since the vendor discovered the vulnerability. “Day zero” is the day the vendor learns of the vulnerability and begins working on a fix. The Common Vulnerabilities and Exposures is a comprehensive list of known security vulnerabilities.
+How Do You Detect a Zero-Day Attack?
+While zero-day attacks are, by definition, very difficult to detect, several strategies have emerged:
+Statistics-based detection employs machine learning to collect data from previously detected exploits and create a baseline for safe system behavior. While this method has limited effectiveness and is subject to false positives/negatives, it can work well in a hybrid solution.
+Signature-based detection uses existing databases of malware and their behavior as a reference when scanning for threats. After using machine learning to analyze and create signatures for existing malware, it is possible to use the signatures to detect previously unknown vulnerabilities or attacks.
+Behavior-based detection detects malware based on its interactions with the target system. Rather than looking at incoming files’ code, the solution analyzes the its interactions with existing software to predict if it’s the result of malicious attack.
+Hybrid detection combines the above three techniques to take advantage of their strengths while mitigating their weaknesses.
+
+A zero day attack represents a severe threat to data security. A zero day attack is a kind of advanced persistent threat that exploits a vulnerability within a piece of software, using this weakness to access a corporate network in the hours or days after the threat becomes known but before it can be fixed or patched.
+Email security is paramount to protecting an organization against a zero day threat, as attacks are often initiated through a malicious link or weaponized attachment. Preventing a zero day attack requires multiple layers of protection to defend against malware, viruses and spam as well as targeted attacks such as phishing, spear-phishing or a whaling attack.
+
+What is a Zero-Day Threat?
+A zero-day threat (also sometimes called a zero-hour threat) is one that hasn’t been seen before and doesn’t match any known malware signatures. This makes it impossible to detect by traditional signature-matching solutions. It may exploit a previously unknown software vulnerability (sometimes called a zero-day vulnerability), or it may be a new malware variant delivered by traditional means.
+In the days when signature matching was the only strategy available for detecting malware, every new, zero-day threat would claim at least one victim (and often many more). Once a network had been successfully penetrated and affected by the malware, security organizations would collect a sample, analyze it to create a signature file, and then distribute an update for antivirus products to be able to identify it.
+Why Zero-Day Threats are important
+The number of new cyber threats is continually increasing with dozens of new zero-day threats originating every day. To protect your network, applications, and data, you must have an advanced threat prevention system that can test untrusted files, links, and emails before they reach your network.?
+What you can do
+Today, however, while signature matching remains a critically important tool, more advanced techniques are available for detecting zero-day threats before they have a chance to do any damage or infect any victims. One common technique is sandboxing, or sandbox analysis, in which suspicious emails and files can be “detonated” in an isolated test environment to make sure they are safe before they reach you network.
+Unfortunately, sandboxing is relatively resource-intensive and time-consuming. Running all traffic through sandbox analysis is impractical. A more successful and workable approach is to use multiple, sequential analytic techniques to pre-filter traffic, so that only a very small percentage of files are analyzed in a sandbox environment.
+
+Most people have heard of zero day malware and may wonder why it is so worrisome to companies. POS security is an important part of daily business activities, especially if you allow credit cards to be used for payment and process them. At Comodo, we believe that your security is essential and have come up with ways to protect you and your customers.
+What is Zero Day Malware?
+A zero-day exploit uses a security vulnerability the same day that vulnerability becomes known to the public or to the vendor who created the software. Because there are zero days between the first attack and the time it is discovered, it is called a zero-day exploit.
+Security Issues
+Usually, when someone notices that software has a potential problem with security or some bug, that person notifies the software company and may also post it publicly, so that a fix can be developed. Patches are created to fix the broken code and then they are distributed. You may also find software updates available to protect against the new vulnerability.
+Because it takes attackers time to exploit it, you have the upper hand and are likely to find a patch before anything untoward happens.
+However, when hackers are first to discover the vulnerability, there is no guard in place so they can create zero day malware to exploit the situation before a fix is found and used.
+Protect Yourself
+Our product can help reduce these types of attacks, because it goes on the defensive, scouring for patterns and potential problems. You can also:
+Protect individual transmissions by using a virtual LAN
+Use an intrusion detection system, such as a stateful firewall
+Start policies for network access control so rogue machines can’t gain access
+Lock down your wireless access points to prevent wireless-based attacks
