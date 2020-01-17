@@ -1,6 +1,8 @@
 # tor-web-crawler
 Tor network web crawler
 
+** This application was developed and presented for my Master's degree thesis.
+
 The application's first function is to create a list of Tor network URLs, store them in an SQL database, while
 checking their status, whether they are active or not.
 
