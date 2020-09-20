@@ -9,7 +9,7 @@ checking their status, whether they are active or not.
 The second function is the implementation of a web crawler that retrieves the HTML content from Tor network webpages
 and stores it in the database.
 
-The application gives three retrieval options to the user:
+Three retrieval options are given to the user:
 
 
 1. Random crawl   
