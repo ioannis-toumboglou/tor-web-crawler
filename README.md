@@ -1,6 +1,5 @@
 # Tor Network Web Crawler
 <br>
-<br>
 <b>NOTE: This application was developed and presented for my Master's degree thesis.</b>
 <br>
 The application initially creates a list of <b>Tor network</b> URLs, stores them in an <b>SQL</b> database, while
@@ -8,7 +7,7 @@ checking their status, whether they are active or not.
 <br>
 Then the web crawler retrieves the HTML content from these webpages and stores it in the database.
 <br>
-Three retrieval options are given to the user:
+Three retrieval options are given to the user:<br>
 <br>
 <b>1. Random crawl</b>
 <br>
@@ -34,6 +33,7 @@ Three retrieval options are given to the user:
    a breadth-first search.
 <br>   
 While collecting the content, the text found in these pages is extracted and stored seperately.
+<br>
 <br>
 Finally, an unsupervised machine learing algorithm is used in order to classify it, based on the cyber-threat type it refers to.
 
