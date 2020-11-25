@@ -3,8 +3,10 @@
 <b>NOTE: This application was developed and presented for my Master's degree thesis.</b>
 <br>
 <br>
-The application initially creates a list of <b>Tor network</b> URLs, stores them in an <b>SQL</b> database, while
-checking their status, whether they are active or not. Then the HTML content from these webpages is retrieved and stored in the database.
+The application initially creates a list of <b>Tor network</b> URLs and stores them in an <b>SQL</b> database, while
+checking their status, whether they are active or not. 
+<br>
+Then the HTML content from these webpages is retrieved and stored in the database.
 <br>
 <br>
 Three retrieval options are given to the user:<br>
