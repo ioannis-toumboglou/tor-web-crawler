@@ -1,5 +1,5 @@
-# tor-web-crawler
-Tor network web crawler
+# Tor Network Web Crawler
+
 
 ** This application was developed and presented for my Master's degree thesis.
 
