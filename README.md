@@ -4,9 +4,8 @@
 <br>
 <br>
 The application initially creates a list of <b>Tor network</b> URLs, stores them in an <b>SQL</b> database, while
-checking their status, whether they are active or not.
+checking their status, whether they are active or not. Then the HTML content from these webpages is retrieved and stored in the database.
 <br>
-Then the web crawler retrieves the HTML content from these webpages and stores it in the database.
 <br>
 Three retrieval options are given to the user:<br>
 <br>
