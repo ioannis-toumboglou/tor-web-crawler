@@ -2,6 +2,7 @@
 <br>
 <b>NOTE: This application was developed and presented for my Master's degree thesis.</b>
 <br>
+<br>
 The application initially creates a list of <b>Tor network</b> URLs, stores them in an <b>SQL</b> database, while
 checking their status, whether they are active or not.
 <br>
